@@ -6,6 +6,8 @@ var arr = [10,20,30,40,50,60]
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
+// let firstItem = arr
+// console.log(firstItem)
 //Code Here
 
 
@@ -15,6 +17,11 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
+
+
+// let lastItemRemoved = 60
+// arr.pop(lastItemRemoved)
+// console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
@@ -28,6 +35,11 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
+
+
+
+// for(i=0; i < family.length; i++)
+// console.log(family[i])
 
 
 ////////// PROBLEM 4 //////////
@@ -44,6 +56,12 @@ let evensArr = []
 //Code Here
 
 
+  // for(let i=0; i < nums.length; i++){ 
+  //   if(nums[i] % 2 === 0){
+  //     evensArr.push(nums[i])
+  //   } console.log(evensArr)
+  // }
+
 
 ////////// PROBLEM 5 //////////
 
@@ -57,7 +75,17 @@ var score = 74
 
 //Code Here
 
-
+// if (score >= 90) {
+//   console.log('A')
+// } else if (score >= 80) {
+//   console.log('B')
+// } else if (score >= 70) {
+//   console.log('C')
+// } else if (score >= 60) {
+//   console.log('D')
+// } else {
+//   console.log('F')
+// }
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
@@ -72,6 +100,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+let someNum = myFavoriteNumbers[4]
+console.log(someNum)
 
 ////////// PROBLEM 7 //////////
 
@@ -80,6 +110,11 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+if(myFavoriteNumbers.length < 7){
+    console.log('There are not enough elements in this array')
+} else {
+  someNum = myFavoriteNumbers[5]
+}
 
 ////////// PROBLEM 8 //////////
 
